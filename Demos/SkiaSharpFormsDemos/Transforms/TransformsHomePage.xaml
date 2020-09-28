@@ -27,6 +27,11 @@
                           Detail="Rotate the 11-pointed star in a circle"
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:Transforms.HendecagramAnimationPage}" />
+
+                <TextCell Text="Hendecagram Array Animation"
+                          Detail="A custom example made by Adam :)"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:Transforms.AnimatedHendecagramArray}" />
             </TableSection>
 
             <TableSection Title="The Scale Transform">

@@ -38,6 +38,11 @@
                           Command="{Binding NavigateCommand}"
                           CommandParameter="{x:Type local:Effects.EffectsHomePage}" />
 
+                <TextCell Text="Transforms"
+                          Detail="Showcases the transforms Skia offers"
+                          Command="{Binding NavigateCommand}"
+                          CommandParameter="{x:Type local:Transforms.TransformsHomePage}" />
+
             </TableSection>
         </TableRoot>
     </TableView>
